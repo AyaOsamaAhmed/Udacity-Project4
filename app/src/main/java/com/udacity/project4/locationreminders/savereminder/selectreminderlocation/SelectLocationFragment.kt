@@ -57,10 +57,10 @@ class SelectLocationFragment : BaseFragment() ,OnMapReadyCallback{
         setHasOptionsMenu(true)
         setDisplayHomeAsUpEnabled(true)
 
-//        TODO: add the map setup implementation
-//        TODO: zoom to the user location after taking his permission
-//        TODO: add style to the map
-//        TODO: put a marker to location that the user selected
+//         : add the map setup implementation
+//         : zoom to the user location after taking his permission
+//         : add style to the map
+//         : put a marker to location that the user selected
 
 
         val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
